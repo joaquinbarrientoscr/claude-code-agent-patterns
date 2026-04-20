@@ -20,8 +20,9 @@ Every agent in this repo uses some combination of:
 | Agent | Purpose | Modes |
 |-------|---------|-------|
 | [`code-review-architect`](agents/code-review-architect.md) | Senior code review with rigor | QUICK · DEEP · SECURITY · ARCHITECTURE |
+| [`spec-driven-project-architect`](agents/spec-driven-project-architect.md) | Take a feature from sketch to shipped through disciplined spec-first work | DISCOVER · SPEC · IMPLEMENT · AUDIT |
 
-More agents coming — the roadmap lives in [FUTURE.md](#roadmap) at the bottom.
+More agents coming — the roadmap lives at [the bottom](#roadmap).
 
 ## Usage
 
@@ -60,7 +61,6 @@ Each agent in this repo follows these principles:
 
 Likely next additions:
 
-- `spec-driven-project-architect` — DISCOVER / SPEC / IMPLEMENT / AUDIT modes for taking a requirement from sketch to shipped.
 - `api-design-agent` — RESEARCH / DESIGN / STRESS-TEST / DOCUMENT modes for designing and hardening backend APIs.
 - `migration-planner` — for rolling schema, framework, or language-version migrations with rollback plans.
 

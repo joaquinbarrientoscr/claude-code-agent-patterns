@@ -21,6 +21,7 @@ Every agent in this repo uses some combination of:
 |-------|---------|-------|
 | [`code-review-architect`](agents/code-review-architect.md) | Senior code review with rigor | QUICK · DEEP · SECURITY · ARCHITECTURE |
 | [`spec-driven-project-architect`](agents/spec-driven-project-architect.md) | Take a feature from sketch to shipped through disciplined spec-first work | DISCOVER · SPEC · IMPLEMENT · AUDIT |
+| [`api-design-agent`](agents/api-design-agent.md) | Design, harden, and document backend APIs (REST / RPC / GraphQL) | RESEARCH · DESIGN · STRESS-TEST · DOCUMENT |
 
 More agents coming — the roadmap lives at [the bottom](#roadmap).
 
@@ -61,8 +62,8 @@ Each agent in this repo follows these principles:
 
 Likely next additions:
 
-- `api-design-agent` — RESEARCH / DESIGN / STRESS-TEST / DOCUMENT modes for designing and hardening backend APIs.
 - `migration-planner` — for rolling schema, framework, or language-version migrations with rollback plans.
+- `incident-responder` — for guiding a live incident from detection through post-mortem.
 
 Open an issue if there's a pattern you'd like to see demonstrated.
 
